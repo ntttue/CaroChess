@@ -1,0 +1,61 @@
+﻿Build started 1/30/2013 9:02:06 PM.
+     1>Project "C:\Users\KinhLuan\Desktop\Caro\bgi.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Release\Caro.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt bgiout.cxx dibutil.cxx drawing.cxx file.cxx misc.cxx mouse.cxx palette.cxx main.cxx text.cxx winbgi.cxx winthread.cxx
+         bgiout.cxx
+         dibutil.cxx
+         drawing.cxx
+     1>drawing.cxx(819): warning C4101: 'tries' : unreferenced local variable
+     1>drawing.cxx(859): warning C4101: 'answer' : unreferenced local variable
+     1>drawing.cxx(1110): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\string.h(110) : see declaration of 'strcat'
+         file.cxx
+         misc.cxx
+         mouse.cxx
+         palette.cxx
+         main.cxx
+     1>main.cxx(268): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : see declaration of 'fopen'
+     1>main.cxx(280): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : see declaration of 'fopen'
+     1>main.cxx(284): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\stdio.h(253) : see declaration of 'fscanf'
+     1>main.cxx(287): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\stdio.h(253) : see declaration of 'fscanf'
+         text.cxx
+     1>text.cxx(348): warning C4018: '<' : signed/unsigned mismatch
+         winbgi.cxx
+     1>winbgi.cxx(81): warning C4800: 'BOOL' : forcing value to bool 'true' or 'false' (performance warning)
+     1>winbgi.cxx(134): warning C4101: 'actual_color' : unreferenced local variable
+     1>winbgi.cxx(133): warning C4101: 'bgi_color' : unreferenced local variable
+     1>winbgi.cxx(494): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
+         winthread.cxx
+     1>winthread.cxx(320): warning C4101: 'i' : unreferenced local variable
+       Link:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\KinhLuan\Desktop\Caro\Release\Caro.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\Caro.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\KinhLuan\Desktop\Caro\Release\Caro.pdb" /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\KinhLuan\Desktop\Caro\Release\Caro.lib" /MACHINE:X86 Release\bgiout.obj
+         Release\dibutil.obj
+         Release\drawing.obj
+         Release\file.obj
+         Release\misc.obj
+         Release\mouse.obj
+         Release\palette.obj
+         Release\main.obj
+         Release\text.obj
+         Release\winbgi.obj
+         Release\winthread.obj
+         Generating code
+         Finished generating code
+         bgi.vcxproj -> C:\Users\KinhLuan\Desktop\Caro\Release\Caro.exe
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\KinhLuan\Desktop\Caro\Release\Caro.exe;#1" /manifest Release\Caro.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Release\Caro.unsuccessfulbuild".
+         Touching "Release\Caro.lastbuildstate".
+     1>Done Building Project "C:\Users\KinhLuan\Desktop\Caro\bgi.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:20.13
