@@ -1,7 +1,10 @@
 # CaroChess
+
 NHẬP MÔN LẬP TRÌNH
 
      ĐỒ ÁN THỰC HÀNH
+     Học kỳ 1 - năm I - 2012. 
+     
 
 Sinh viên:
 
